@@ -64,37 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 100%;
+	text-align: center;
+}
+
 /* nav bar starts here*/
 .Nav a{
 	margin: 5%;
 }
 /* nav bar ends here */
+/* header stuff here*/
+.headerLeft{
+	transform: translateY(-20%);
+	text-align: center;
+}
  header div{
 	 display: inline-block;
-	 }
-header{
-	width: 80%;
-	margin: auto;
-	margin-bottom: 10%;
-	text-align: center;
-}	 
-header img{
-	margin-left: 30%;
-	margin-top: 5%;
+	 border: 2px solid green;
 }
+	 header{
+	margin-left: 30%;
+	text-align: left;
+}	 
+.headerRight img{
+	display: inline-block;
+}
+
 div h1{
 	margin-bottom: 10%;
 	text-align: center;
 	font-size: 75px;
 }
-div .getStarted{
-	border: 1px solid black; 
-	padding: 10px;	
-}
+
+/* heading ends here */
+/* top section info starts here */
+.wholeTop{
+	border: 1px solid blue;
+	display: inline-block;
+	}
 .topSection{
 	display: inline-block;
 	text-align: center;
-	width: 45%;
 	border: 2px solid red;
-	margin: 0 10px;
+	width: 40%;
 	}
+/* top section info stops here */
+
+/* bottom info section starts here */
+.wholeBottom{
+	border: 1px solid rebeccapurple;
+}
+
+
+
+.bottomSection{
+	display: inline-block;
+	text-align: center;
+	width: 26.5%;
+	border: 2px solid blue;
+	}
+/* bottom info section ends here */
+/*middle image stuff starts here */
+.middle-img {
+	width: 80%;
+}
+.contact{
+text-align: left;
+	}
+/*footer starts here*/
+footer{
+	text-align: center;
+}	
