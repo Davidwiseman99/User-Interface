@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body{
 	width: 100%;
-	text-align: center;
+	text-align: center; 
 }
 
 /* nav bar starts here*/
@@ -81,8 +81,10 @@ body{
 }
  header div{
 	 display: inline-block;
-	 border: 2px solid green;
-}
+	 padding-top: 10%;
+	 padding-bottom: 3%;
+
+	}
 	 header{
 	margin-left: 30%;
 	text-align: left;
@@ -100,20 +102,22 @@ div h1{
 /* heading ends here */
 /* top section info starts here */
 .wholeTop{
-	border: 1px solid blue;
+	border-top: 1px solid black;
+	padding-top: 3%;
+	padding-bottom: 5%;
 	display: inline-block;
 	}
 .topSection{
 	display: inline-block;
 	text-align: center;
-	border: 2px solid red;
 	width: 40%;
 	}
 /* top section info stops here */
 
 /* bottom info section starts here */
 .wholeBottom{
-	border: 1px solid rebeccapurple;
+	border-top: black solid 1px;
+	
 }
 
 
@@ -122,17 +126,18 @@ div h1{
 	display: inline-block;
 	text-align: center;
 	width: 26.5%;
-	border: 2px solid blue;
+	padding-top: 3%;
 	}
 /* bottom info section ends here */
 /*middle image stuff starts here */
 .middle-img {
 	width: 80%;
+	padding-bottom: 3%;
 }
 .contact{
-text-align: left;
+	text-align: left;
 	}
 /*footer starts here*/
 footer{
-	text-align: center;
+	text-align:center;
 }	
