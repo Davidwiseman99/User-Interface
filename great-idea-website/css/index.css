@@ -87,7 +87,14 @@ div h1{
 	text-align: center;
 	font-size: 75px;
 }
-div .topSection{
+div .getStarted{
+	border: 1px solid black; 
+	padding: 10px;	
+}
+.topSection{
 	display: inline-block;
 	text-align: center;
+	width: 45%;
+	border: 2px solid red;
+
 }
