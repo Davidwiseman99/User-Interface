@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 body{
 	width: 100%;
 	text-align: center; 
-}
+	}
 
 /* nav bar starts here*/
 .Nav a{
@@ -134,8 +134,9 @@ div h1{
 	width: 80%;
 	padding-bottom: 3%;
 }
-.contact{
+.Contact{
 	text-align: left;
+	padding-top: 3%;
 	}
 /*footer starts here*/
 footer{
