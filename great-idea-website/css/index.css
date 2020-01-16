@@ -103,6 +103,7 @@ div h1{
 /* top section info starts here */
 .wholeTop{
 	border-top: 1px solid black;
+	margin: 0 156px;
 	padding-top: 3%;
 	padding-bottom: 5%;
 	display: inline-block;
@@ -117,6 +118,7 @@ div h1{
 /* bottom info section starts here */
 .wholeBottom{
 	border-top: black solid 1px;
+	margin: 0 156px;
 	
 }
 
